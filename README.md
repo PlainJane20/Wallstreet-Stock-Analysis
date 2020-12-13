@@ -52,3 +52,5 @@
 * Ensure you commit regularly to your repository and it contains a README.md file.
 
 * After everything has been saved, create a sharable link and submit that to <https://bootcampspot-v2.com/>.
+
+# Navi Sohi | Data Analytics & Visualization
