@@ -1,56 +1,34 @@
 # Wallstreet-Stock-Analysis
 
-### Before You Begin
-
-1. Create a new repository for this project.  
-2. Inside the new repository that you just created, add any VBA files you use for this assignment. These will be the main scripts to run for each analysis.
+## Summary
+* A homework assignment for UC Berkeley's Data Analytics Bootcamp
+* Visual Basic Script loops through three years of stock price data for several companies
+* The script calculates metrics like total volume, annual change in dollar value, and annual percentage change in dollar value for each of the stocks across all three years
+* The script also locates the stocks with the greatest annual percentage increases in value, greatest annual percentage decreases in value, and greatest total annual volumes
 
 ### Files
+* The Multiple_year_stock_data.xlsx file in the "Resources" folder is the stock data used in this analysis
+* The financial_analysis_scripts.vbs is the Visual Basic Script file that can be used with the Multiple_year_stock_data.xlsx file to answer the questions listed in the instructions below
 
-* [Test Data](Resources/alphabetical_testing.xlsx) - Use this while developing your scripts.
+## Stock Market Analysis (Homework Assignment Instructions)
 
-* [Stock Data](Resources/Multiple_year_stock_data.xlsx) - Run your scripts on this data to generate the final homework report.
+### Easy
+* Create a script that will loop through each year of stock data and grab the total amount of volume each stock had over the year
+* You will also need to display the ticker symbol to coincide with the total volume
 
-### Stock market analyst
+### Medium
+* Create a script that will loop through all the stocks and take the following info
+   * Yearly change from what the stock opened the year at to what the closing price was
+   * The percent change from the what it opened the year at to what it closed
+   * The total Volume of the stock
+   * Ticker symbol
+* You should also have conditional formatting that will highlight positive change in green and negative change in red
 
-## Instructions
+### Hard
+* Your solution will include everything from the moderate challenge
+* Your solution will also be able to locate the stock with the "Greatest % increase", "Greatest % Decrease" and "Greatest total volume"
 
-* Create a script that will loop through all the stocks for one year and output the following information.
-
-  * The ticker symbol.
-
-  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
-
-  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
-
-  * The total stock volume of the stock.
-
-* You should also have conditional formatting that will highlight positive change in green and negative change in red.
-
-* The result should look as follows.
-
-### CHALLENGES
-
-1. Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
-
-2. Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
-
-### Other Considerations
-
-* Use the sheet `alphabetical_testing.xlsx` while developing your code. This data set is smaller and will allow you to test faster. Your code should run on this file in less than 3-5 minutes.
-
-* Make sure that the script acts the same on each sheet. The joy of VBA is to take the tediousness out of repetitive task and run over and over again with a click of the button.
-
-## Submission
-
-* To submit please upload the following to Github:
-
-  * A screen shot for each year of your results on the Multi Year Stock Data.
-
-  * VBA Scripts as separate files.
-
-* Ensure you commit regularly to your repository and it contains a README.md file.
-
-* After everything has been saved, create a sharable link and submit that to <https://bootcampspot-v2.com/>.
+### Challenge
+* Make the appropriate adjustments to your script that will allow it to run on every worksheet just by running it once
 
 ### Navi Sohi | Data Analytics & Visualization
