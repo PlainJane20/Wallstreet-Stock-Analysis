@@ -31,4 +31,4 @@
 ### Challenge
 * Make the appropriate adjustments to your script that will allow it to run on every worksheet just by running it once
 
-### Navi Sohi | Data Analytics & Visualization
+### [Navi Sohi](https://github.com/PlainJane20) | Data Analytics & Visualization
